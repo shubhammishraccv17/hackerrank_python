@@ -1,0 +1,11 @@
+def birthday(s, d, m):
+    a=0
+    b=m
+    c=0
+    while(b<=(len(s))):
+        v=sum(s[a:b])
+        if(v==d):
+            c+=1
+        a+=1
+        b+=1
+    return c
